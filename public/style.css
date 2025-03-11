@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ribeye&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: gabato;
+  src:url("/data/fonts/Gabato.ttf")
+}
+@font-face {
+  font-family: bardes;
+  src:url("/data/fonts/BardesMagic-Regular.otf")
+}
+* {
+cursor:url(/data/cur/vapo.png),auto
+}
+a:hover {
+  cursor:url("/data/cur/kirby.gif"), auto;
+}
+body {
+font-family:"MS UI Gothic",Tahoma;
+font-size:12px;
+text-rendering:geometricPrecision;
+margin:0;
+}
+
+.filter {
+image-rendering:pixelated;
+image-rendering:-moz-crisp-edges;
+image-rendering:crisp-edges;
+}
+
+iframe {
+border:none
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-weight:400;
+margin:0;
+}
+u {
+  text-decoration-style:dotted;
+}
+
+ul {
+margin:0;
+padding:0;
+list-style-type:square
+}
+
+a {
+color:inherit
+}
+
+.flex {
+display:flex
+}
+
+::-webkit-scrollbar {
+width:0
+}
